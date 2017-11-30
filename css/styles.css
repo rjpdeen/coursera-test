@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background-color: #1E9DFF;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #D2FF8E;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h2 {
+	margin-top: 0;
+	color: #000000;
+}
+
+#nav-list {
+	text-align: center;
+	background-color: #FFCEE9;
+	border-color: #000000;
+}
+
+#nav-list h3:hover {
+	background-color: #FFFFFF;
+}
+
+body p {
+	background-color: #FFCEE9;
+	/**padding: 10px 10px 10px 10px;**/
+	margin: 10px 10px 10px 10px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/** LARGE DEVICES ONLY **/
+@meda (min-width: 1200px) {
+
+}
+
+/** MEDIUM DEVICES ONLY **/
+@meda (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/** SMALL DEVICES ONLY **/
+@meda (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/** LARGE DEVICES ONLY **/
+@meda (max-width: 767px) {
+
+}
